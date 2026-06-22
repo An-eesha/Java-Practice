@@ -12,6 +12,8 @@ public class Main {
             System.out.println("Valid age.");
         } catch (InvalidAgeException e) {
             System.out.println(e.getMessage());
+        }finally{
+            System.out.println("Program Completed...");
         }
     }
 }
