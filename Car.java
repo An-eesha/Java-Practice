@@ -5,7 +5,7 @@ class Car {
   
     // public void setDetail(String brandName, String model, int price){
     // by using constructor 
-    public Car (){
+    public Car (String brandName, String model, int price){
       this.brandName= brandName;
       this.model= model;
       this.price= price;
