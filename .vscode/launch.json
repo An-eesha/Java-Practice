@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiThreadApp",
+            "request": "launch",
+            "mainClass": "MultiThreadApp",
+            "projectName": "Java_f0c5844c"
+        },
+        {
+            "type": "java",
+            "name": "SimpleLoginForm",
+            "request": "launch",
+            "mainClass": "SimpleLoginForm",
+            "projectName": "Java_f0c5844c"
+        },
+        {
+            "type": "java",
+            "name": "StudentForm",
+            "request": "launch",
+            "mainClass": "StudentForm",
+            "projectName": "Java_f0c5844c"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
